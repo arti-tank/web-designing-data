@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation </title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0%;
+            padding: 0%;
+            color: aliceblue;
+        }
+        
+        .loader {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh;
+            align-items: center;
+        }
+        
+        .rotate {
+            /* background-color: ; */
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border-right-color: blue;
+            border-bottom-color: crimson;
+            background-color: black;
+            animation: rotate 1s ease infinite;
+        }
+        /* .rotate:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+         */
+        
+        @keyframes rotate {
+            0% {
+                /* transform: rotate(0deg); */
+                box-shadow: 1px 5px 2px red;
+            }
+            50% {
+                /* transform: rotate(180deg); */
+                box-shadow: 1px 5px 2px blue;
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        span {
+            color: white;
+            position: absolute;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="rotate"></div>
+        <span>loading...</span>
+    </div>
+</body>
+
+</html>
