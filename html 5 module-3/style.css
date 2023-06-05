@@ -1,0 +1,19 @@
+  /* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  } */
+  
+  .b {
+      height: 600px;
+      width: 80%;
+      background-color: gray;
+      color: azure;
+      margin: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+  }
+  
+  h4 {
+      color: brown;
+  }
