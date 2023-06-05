@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input {
+            height: 20px;
+            width: 20%;
+            margin: 5px;
+        }
+        
+        button {
+            height: 30px;
+            width: 10%;
+            margin: 5px;
+        }
+        
+        .no {
+            height: 300px;
+            width: 30%;
+            background-color: antiquewhite;
+            border: 2px solid black;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="b">
+        <ul>
+            <h3>Question 19:creat basic math oparation?
+            </h3>
+            <li>
+                <div class="no">
+                    <h3>Maths Operation</h3> <br>enter 1st number:<input type="text" id="value3" placeholder="23"><br> enter 2nd number: <input type="text" id="value4" placeholder="32"><br>
+                    <input type="text" id="ans" placeholder="55"><br>
+                    <h4id="ans">answer is
+                        </h4><br>
+                        <button id="sum" onclick="add()">+
+                        </button>
+                        <button id="sub">-
+                        </button>
+                        <button id="mul">*
+                        </button>
+                        <button id="div">/<br>
+                        </button>
+                        <button id="mod">%<br>
+                        </button>
+            </li>
+        </ul>
+        </div>
+
+        <script>
+            var v3 = perseInt(document.getElementById('value3').value);
+            var v4 = perseInt(document.getElementById('value4').value);
+            var ans = v3 + v4
+        </script>
+
+
+
+    </div>
+
+</body>
+
+</html>
