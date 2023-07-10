@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../JQUERY MODULE-5/CSS/style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js " integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin=" anonymous
+        " referrerpolicy="no-referrer ">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('button').click(function() {
+                $('div').slideToggle('3000');
+
+
+            })
+        })
+    </script>
+
+    <style>
+        .b {
+            height: 1100px;
+            /* color: black; */
+            /* background-attachment: fixed; */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="b"><br>
+        <h4>&ensp;how to creat slider with animation?</h4>
+        <ul>
+            <li>
+                make a animation slider needs to jquery apply to 3 mathod.<br>we apply changing to of html element such a <br>background color ,style,etc.</li><br>
+            <MARK>syntax:</MARK><br><br> $('selector').animate('');
+
+
+            <br><br>
+            <mark>click to buton</mark> <br><button>slidetoggle</button><br><br>
+
+            <!-- <div style="background-color:#CC6666; height: 250px; width: 250px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas accusantium pariatur ea quam rem officiis est repellat error. Accusamus harum, vero ducimus deserunt dolorem eveniet dolorum saepe hic sed? Atque.</div><br>
+
+            <div style="background-color:#660033; height: 250px; width: 250px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas accusantium pariatur ea quam rem officiis est repellat error. Accusamus harum, vero ducimus deserunt dolorem eveniet dolorum saepe hic sed? Atque.</div> -->
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../image/flower-3063414_640 (1).jpg" style="width:40%" height="300px">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../image/image 1.jpg" style="width:50%">
+                <div class="text">Caption Three</div>
+            </div>
+        </ul>
+    </div>
+</body>
+
+
+</html>
